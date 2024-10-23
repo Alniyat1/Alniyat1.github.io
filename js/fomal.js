@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Alniyat🥝")[0];
 }
 
 function scrollToTop() {
@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'XN4BZ-C4ACU-IQEVU-GWRLC-CZKBO-2LB2D',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by Alniyat🥝 %c 你正在访问 Alniyat🥝の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -3174,9 +3174,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://tuchuang.voooe.cn/images/2024/10/18/renzhebixusi3-ziyuan.jpg);
-    --darkmode-bg:url(https://tuchuang.voooe.cn/images/2024/10/21/renzhebixusi3-xuewu.jpg);
-    --mobileday-bg: url(https://tuchuang.voooe.cn/images/2024/10/21/renzhebixusi3-weili.jpg);
+    --default-bg: url(https://tuchuang.voooe.cn/images/2024/10/23/renzhebixusi3-ziyuan.jpg);
+    --darkmode-bg:url(https://tuchuang.voooe.cn/images/2024/10/23/renzhebixusi3-ziyuan.jpg);
+    --mobileday-bg: url(https://tuchuang.voooe.cn/images/2024/10/21/renzhebixusi3-luoqing.jpg);
     --mobilenight-bg: url(https://tuchuang.voooe.cn/images/2024/10/21/renzhebixusi3-luoqing.jpg);
   }`;
 }
