@@ -7701,13 +7701,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2024/10/23/renzhebixusi3-ziyuan.jpg);
+  background-image: url(https://tuchuang.voooe.cn/images/2024/10/31/mobile_bg_01.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2024/10/23/renzhebixusi3-ziyuan.jpg);
+  background-image: url(https://tuchuang.voooe.cn/images/2024/10/31/mobile_bg_02.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -8039,7 +8039,7 @@ blockquote {
   border-radius: 8px;
 }
 #aside-content #card-toc .toc-content .toc-link.active:hover {
-  color: #fefefe;
+  color: #fcfbfb;
 }
 .site-data > a:hover div {
   color: var(--theme-color) !important;
@@ -8692,7 +8692,7 @@ li.categoryBar-list-item {
   }
 }
 
-/* By Fomalhaut版权大小 */
+/* By Alniyat版权大小 */
 .copyright {
   font-size: 16px;
 }
@@ -9029,7 +9029,7 @@ i.fas.fa-cog.right_side {
   left: calc(100% - 28px);
   width: 28px;
   height: 28px;
-  border: 1px solid #d0d7de;
+  border: 1px solid #eaecef;
   border-radius: 2em;
   background-color: #f8f8f8f8;
   transition: 0.4s;
